@@ -1,7 +1,7 @@
 <html>
 
     <head>
-        <title>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</title>
+        <title>página</title>
     </head>
 
     <body>
@@ -40,31 +40,39 @@
             </tr>
         </table>
         <hr>
-        Fale sobre você:<br>
-        <textarea>
-        </textarea><br>
-        Usuário:<br>
+        <table>
+            <tr>
+                <td>
+                    Fale sobre você:<br>
+                    <textarea>
+                    </textarea>
+                </td>
+                <td>
+                    <label for="gosta">Gosta de falar sobre você?</label><br>
+                    <select name="gosta" id="gosta">
+                        <option value="Escolha">Escolha</option>
+                        <option value="Sim.">Sim</option>
+                        <option value="Não">Não</option>
+                    </select>
+                    <br>
+                    <label for="hobbies">Hobbies:</label>
+                    <select name="hobbies" id="hobbies" multiple>
+                        <option value="correr">correr</option>
+                        <option value="nadar">nadar</option>
+                        <option value="tenis">tênis</option>
+                        <option value="futebol">futebol</option>
+                        <option value="dança">dança</option>
+                        <option value="música">música</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        Usuário:
         <input type="text"><br>
-        Senha:<br>
+        Senha:
         <input type="password"><br>
-        <br>
-        <label for="gosta">Gosta de falar sobre você?</label><br>
-        <select name="gosta" id="gosta">
-            <option value="Escolha">Escolha</option>
-            <option value="Sim.">Sim</option>
-            <option value="Não">Não</option>
-        </select><br>
-        <br>
-        <label for="hobbies">Hobbies:</label><br>
-        <select name="hobbies" id="hobbies" multiple>
-            <option value="correr">correr</option>
-            <option value="nadar">nadar</option>
-            <option value="tenis">tênis</option>
-            <option value="futebol">futebol</option>
-            <option value="dança">dança</option>
-            <option value="música">música</option>
-        </select><br>
-        <br>
+
         <input type="reset" value="Limpar">
 
         <input type="submit" value="Enviar"><br>
